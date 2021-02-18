@@ -35,6 +35,11 @@ npm install
 node app.js
 ```
 
+- #### Open in browser to see it in action
+```
+http://localhost:3000
+```
+
 - #### Run tests
 ```
 npm test
