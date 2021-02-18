@@ -54,3 +54,23 @@ npm test -- --coverage
 - [Data Genetics](https://datagenetics.com/blog/august32013/index.html)
 - [Basic Image Manipulation](https://www.codingame.com/playgrounds/2524/basic-image-manipulation/transformation)
 - [Pixel manipulation with canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)
+
+
+### Docker to run App
+Steps to run using docker
+
+- #### Build docker image
+```
+docker build -t <your username>/node-rotation-app .
+```
+
+- #### Build docker image
+```
+docker run -p 3000:3000 -d <name of your image repo>
+```
+
+- #### Go to the following url
+```
+http://localhost:3000
+```
+
